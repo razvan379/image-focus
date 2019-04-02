@@ -93,7 +93,7 @@ Then in some script that loads after the above script tag:
 
 ```js
 var imgEl = document.querySelector('img.focused-image');
-var focusedImage = new imageFocus.FocusedImage(imgEl, {x: 0.25, y: -0.3});
+var focusedImage = new imageFocus.FocusedImage(imgEl, {focus:{x: 0.25, y: -0.3}});
 ```
 
 ## Attributions
